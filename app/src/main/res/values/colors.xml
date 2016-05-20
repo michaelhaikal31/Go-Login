@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0099ff</color>
+    <color name="colorPrimaryDark">#336699</color>
+    <color name="colorAccent">#68efad</color>
+    <string-array name="colorAnggota">
+        <item>#c2394b</item>
+        <item>#aa303d</item>
+        <item>#942835</item>
+        <item>#7f252e</item>
+        <item>#631b26</item>
+        <item>#481119</item>
+    </string-array>
+</resources>

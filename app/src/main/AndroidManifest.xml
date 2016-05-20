@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.goblog.go_login">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- Category Of Maps Google -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gaf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.HomeApp"
+            android:label="@string/title_activity_home_app"
+            android:parentActivityName=".activity.MainActivity"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.kategori.Sub_Exkul.Sub_Exkul_Seni_angkung"
+            android:label="@string/title_activity_sub__exkul__seni_angkung"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Exkul.Sub_Exkul_Tenologi"
+            android:label="@string/title_activity_sub__exkul__tenologi"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Exkul.Sub_Exkul_Olahraga_Futsal"
+            android:label="@string/title_activity_sub__exkul__olahraga__futsal"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Jurusan.Sub_Jurusan_TKJ"
+            android:label="@string/title_activity_sub__jurusan__tkj"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Jurusan.Sub_Jurusan_PRL"
+            android:label="@string/title_activity_sub__jurusan__prl"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Jurusan.Sub_Jurusan_MM"
+            android:label="@string/title_activity_sub__jurusan__mm"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Jurusan.Sub_Jurusan_TOI"
+            android:label="@string/title_activity_sub__jurusan__toi"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Jurusan.Sub_Jurusan_TPTL"
+            android:label="@string/title_activity_sub__jurusan__tptl"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Jurusan.Sub_Jurusan_TEAV"
+            android:label="@string/title_activity_sub__jurusan__teav"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Prestasi.Prestasi_1"
+            android:label="@string/title_activity_prestasi_1"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Prestasi.Prestasi_2"
+            android:label="@string/title_activity_prestasi_2"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Prestasi.Prestasi_3"
+            android:label="@string/title_activity_prestasi_3"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Prestasi.Prestasi_4"
+            android:label="@string/title_activity_prestasi_4"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Prestasi.Prestasi_5"
+            android:label="@string/title_activity_prestasi_5"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Prestasi.Prestasi_6"
+            android:label="@string/title_activity_prestasi_6"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Prestasi.Prestasi_7"
+            android:label="@string/title_activity_prestasi_7"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activity.kategori.Sub_Prestasi.Prestasi_8"
+            android:label="@string/title_activity_prestasi_8"
+            android:theme="@style/AppTheme" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+    </application>
+
+</manifest>

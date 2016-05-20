@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:background="@drawable/logi">
+
+
+    <RelativeLayout
+        android:id="@+id/nav_header_container"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_alignParentTop="true">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/logo"
+            android:scaleType="fitCenter"
+            android:layout_centerInParent="true" />
+        <TextView
+            android:id="@+id/judul_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smkn 4 Bandung"
+            android:textColor="#ffff"
+            android:textSize="15dp"
+            android:gravity="center_horizontal"
+            android:layout_below="@+id/logo"
+            android:paddingTop="10dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"/>
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/drawerList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nav_header_container"
+        android:layout_marginTop="1dp"
+        />
+
+
+</RelativeLayout>

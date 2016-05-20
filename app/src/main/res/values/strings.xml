@@ -1,0 +1,238 @@
+<resources>
+    <string name="app_name">Material Design</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_Home">Home</string>
+    <string name="nav_item_Profile">Profile</string>
+    <string name="nav_item_Prestasi">Prestasi</string>
+    <string name="nav_item_Jurusan">Jurusan</string>
+    <string name="nav_item_Exkul">Ekulikuler</string>
+    <string name="nav_item_Peta">Maps</string>
+    <string name="nav_item_Kontak">Contact</string>
+    <string name="nav_item_Bantuan">Help</string>
+    <string name="nav_item_About_App">About App</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_Home</item>
+        <item>@string/nav_item_Profile</item>
+        <item>@string/nav_item_Prestasi</item>
+        <item>@string/nav_item_Jurusan</item>
+        <item>@string/nav_item_Exkul</item>
+        <item>@string/nav_item_Peta</item>
+        <item>@string/nav_item_Kontak</item>
+        <item>@string/nav_item_Bantuan</item>
+        <item>@string/nav_item_About_App</item>
+    </string-array>
+
+    <integer-array name="nav_drawer_image">
+        <item>@drawable/ic_home_white_36dp</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/ic_phone_white_24dp</item>
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+    </integer-array>
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+    <string name="title_five">Five</string>
+    <string name="title_fore">Fore</string>
+    <string name="title_six">Six</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_sign_up">MASUK</string>
+    <string name="title_activity_home_app">HomeApp</string>
+
+    <string name="misi_2">Mendidik, mengembangkan karakter dan bakat peserta didik melalui Program Mata Pelajaran Wajib,Kejuruan, Muatan
+             Lokal serta Pengembangan diri.</string>
+    <string name="long_text">Android 5.0 Lollipop was one of the most significant Android releases ever,
+        in no small part due to the introduction of material design,
+        a new design language that refreshed the entire Android experience
+    </string>
+
+
+    <string name="settings">Settings</string>
+    <string name="myaccount">My Account</string>
+    <string name="stats">Stats</string>
+    <string name="search">Search</string>
+    <string name="action_filter">Filter</string>
+
+
+    <!-- SUB of Exkul -->
+    <!-- Names -->
+    <string-array name="exkul">
+        <item>Seni (Angklung)</item>
+        <item>Teknologi</item>
+        <item>Olahraga (Futsal)</item>
+    </string-array>
+
+    <!-- Pictures -->
+    <array name="photo_exkul">
+        <item>@drawable/exkul_angklung</item>
+        <item>@drawable/exkul_teknologi</item>
+        <item>@drawable/exkul_futsal</item>
+    </array>
+    <!-- Button -->
+    <string-array name="buttom_exkul">
+        <item>lihat detail</item>
+        <item>lihat detail</item>
+        <item>lihat detail</item>
+    </string-array>
+    <string name="title_activity_sub__exkul__seni_angkung">Sub_Exkul_Seni_angkung</string>
+    <string name="title_activity_sub__exkul__tenologi">Sub_Exkul_Tenologi</string>
+    <string name="title_activity_sub__exkul__olahraga__futsal">Sub_Exkul_Olahraga_Futsal</string>
+
+
+    <!-- SUB of Home -->
+    <!-- Names -->
+    <string-array name="home">
+        <item>Sambutan</item>
+        <item>About School</item>
+        <item>Jurusan</item>
+        <item>Prestasi</item>
+        <item>Exkul</item>
+        <item>Maps</item>
+    </string-array>
+
+    <!-- Pictures -->
+    <array name="photo_home">
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+    </array>
+
+    <!-- SUB of Jurusan -->
+    <!-- Names -->
+    <string-array name="jurusan">
+        <item>Teknik Komputer Jaringan</item>
+        <item>Rekayasa Perangkat Lunak</item>
+        <item>MultiMedia</item>
+        <item>Teknik Otomasi Industri</item>
+        <item>Teknik Pemanfaaan Tenaga Listrik</item>
+        <item>Teknik Elektronika Audio Video</item>
+    </string-array>
+
+    <!-- Pictures -->
+    <array name="photo_jurusan">
+        <item>@drawable/jurusan_tkj</item>
+        <item>@drawable/jurusan_rpl</item>
+        <item>@drawable/jurusan_mm</item>
+        <item>@drawable/jurusan_toi</item>
+        <item>@drawable/jurusan_tptl</item>
+        <item>@drawable/jurusan_teav</item>
+    </array>
+    <!-- Button -->
+    <string-array name="button_bookmark">
+        <item>@drawable/ic_bookmark_black_36dp</item>
+        <item>@drawable/ic_bookmark_black_36dp</item>
+        <item>@drawable/ic_bookmark_black_36dp</item>
+        <item>@drawable/ic_bookmark_black_36dp</item>
+        <item>@drawable/ic_bookmark_black_36dp</item>
+        <item>@drawable/ic_bookmark_black_36dp</item>
+    </string-array>
+    <string-array name="button_share">
+        <item>@drawable/ic_share_black_36dp</item>
+        <item>@drawable/ic_share_black_36dp</item>
+        <item>@drawable/ic_share_black_36dp</item>
+        <item>@drawable/ic_share_black_36dp</item>
+        <item>@drawable/ic_share_black_36dp</item>
+        <item>@drawable/ic_share_black_36dp</item>
+    </string-array>
+    <string-array name="button_more">
+        <item>@drawable/ic_more_vert_black_36dp</item>
+        <item>@drawable/ic_more_vert_black_36dp</item>
+        <item>@drawable/ic_more_vert_black_36dp</item>
+        <item>@drawable/ic_more_vert_black_36dp</item>
+        <item>@drawable/ic_more_vert_black_36dp</item>
+        <item>@drawable/ic_more_vert_black_36dp</item>
+    </string-array>
+    <!-- Array Button for Exkul -->
+
+    <string-array name="button_bookmark_exkul">
+        <item>@drawable/ic_bookmark_black_36dp</item>
+        <item>@drawable/ic_bookmark_black_36dp</item>
+        <item>@drawable/ic_bookmark_black_36dp</item>
+    </string-array>
+    <string-array name="button_share_exkul">
+        <item>@drawable/ic_share_black_36dp</item>
+        <item>@drawable/ic_share_black_36dp</item>
+        <item>@drawable/ic_share_black_36dp</item>
+    </string-array>
+    <string-array name="button_more_exkul">
+        <item>@drawable/ic_more_vert_black_36dp</item>
+        <item>@drawable/ic_more_vert_black_36dp</item>
+        <item>@drawable/ic_more_vert_black_36dp</item>
+    </string-array>
+
+    <!-- Image of Prestasi -->
+    <string-array name="image_ids">
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+        <item>@drawable/bg</item>
+    </string-array>
+    <!-- COntent Of Prestasi -->
+    <!-- Names -->
+    <string-array name="names">
+        <item>Juara 1 Festival Paduan Angklung FPA ITB XIV 2015</item>
+        <item>WINNER INTERNATIONAL STUDENT PHOTO COMPETITION</item>
+        <item>Juara I dan Juara Harapan I LKS Nasional 2014 di ...</item>
+        <item>Juara 1 Web Design Competition ITBH 2015</item>
+        <item>Juara II, III, IV dan VII Seleksi Nasional Calon ...</item>
+        <item>Juara 1 LKS Provinsi Jawa Barat Bidang Lomba Web ...</item>
+        <item>Juara 2 Tingkat Nasional UNPAD Motekar 2014</item>
+        <item>Upacara Peringatan HUT RI Ke 70</item>
+    </string-array>
+
+    <!-- Pictures -->
+    <array name="profile_pics">
+        <item>@drawable/pretasi_1</item>
+        <item>@drawable/prestasi_2</item>
+        <item>@drawable/prestasi_3</item>
+        <item>@drawable/prestasi_4</item>
+        <item>@drawable/prestasi_5</item>
+        <item>@drawable/prestasi_6</item>
+        <item>@drawable/prestasi_7</item>
+        <item>@drawable/prestasi_8</item>
+    </array>
+    <string name="title_activity_sub__jurusan__tkj">Sub_Jurusan_TKJ</string>
+    <string name="title_activity_sub__jurusan__prl">Sub_Jurusan_PRL</string>
+    <string name="title_activity_sub__jurusan__mm">Sub_Jurusan_MM</string>
+    <string name="title_activity_sub__jurusan__toi">Sub_Jurusan_TOI</string>
+    <string name="title_activity_sub__jurusan__tptl">Sub_Jurusan_TPTL</string>
+    <string name="title_activity_sub__jurusan__teav">Sub_Jurusan_TEAV</string>
+    <string name="title_activity_fragment__maps">Map</string>
+    <string name="title_activity_prestasi_1">Prestasi_1</string>
+    <string name="title_activity_prestasi_2">Prestasi_2</string>
+    <string name="title_activity_prestasi_3">Prestasi_3</string>
+    <string name="title_activity_prestasi_4">Prestasi_4</string>
+    <string name="title_activity_prestasi_5">Prestasi_5</string>
+    <string name="title_activity_prestasi_6">Prestasi_6</string>
+    <string name="title_activity_prestasi_7">Prestasi_7</string>
+    <string name="title_activity_prestasi_8">Prestasi_8</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>
